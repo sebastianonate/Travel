@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Travel.Infrastructure.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.AutorController.GetAll">
+            <summary>
+            Metodo para consultar todos los autores
+            </summary>
+            <returns>Autores</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.AutorController.GetById(System.Int32)">
+            <summary>
+            Metodo para consultar un autor por id
+            </summary>
+            <param name="autorId">Id del autor.</param>
+            <returns>Autor</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.AutorController.Post(Travel.Core.Application.Features.Autores.Commands.Create.CreateAutorRequest)">
+            <summary>
+            Metodo para guardar un autor
+            </summary>
+            <param name="request">Request con los datos del autor.</param>
+            <returns>Autor</returns>   
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.AutorController.Put(System.Int32,Travel.Core.Application.Features.Autores.Commands.Update.UpdateAutorRequest)">
+            <summary>
+            Metodo para actualizar el autor
+            </summary>
+            <param name="autorId">Id del autor.</param>
+            <param name="request">Request con los datos para actualizar el autor.</param>
+            <returns>Respuesta actualizar autor</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.AutorController.Delete(System.Int32)">
+            <summary>
+            Metodo para eliminar el autor
+            </summary>
+            <param name="autorId">Id del autor.</param>
+            <returns>Respuesta eliminación</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.EditorialController.GetAll">
+            <summary>
+            Metodo para consultar Editoriales
+            </summary>
+            <returns>Editoriales</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.EditorialController.GetById(System.Int32)">
+            <summary>
+            Metodo para consultar editorial por Id
+            </summary>
+            <param name="editorialId">Id de la editorial.</param>
+            <returns>Editorial</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.EditorialController.Post(Travel.Core.Application.Features.Editoriales.Commands.Create.CreateEditorialRequest)">
+            <summary>
+            Metodo para guardar editorial
+            </summary>
+            <param name="request">Datos de la editorial.</param>
+            <returns>Respuesta</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.EditorialController.Put(System.Int32,Travel.Core.Application.Features.Editoriales.Commands.Update.UpdateEditorialRequest)">
+            <summary>
+            Metodo para actualizar editorial
+            </summary>
+            <param name="editorialId">Id de la editorial.</param>
+            <param name="request">Datos para actualizar la editorial.</param>
+            <returns>Respuesta</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.EditorialController.Delete(System.Int32)">
+            <summary>
+            Metodo para eliminar editorial
+            </summary>
+            <param name="editorialId">Id de la editorial.</param>
+            <returns>Respuesta</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.IdentityController.GetTokenAsync(Travel.Core.Application.DTOs.Identity.TokenRequest)">
+            <summary>
+            Generates a JSON Web Token for a valid combination of emailId and password.
+            </summary>
+            <param name="tokenRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.LibroController.GetAll">
+            <summary>
+            Metodo para consultar todos los libros
+            </summary>
+            <returns>Libros</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.LibroController.GetById(System.Int32)">
+            <summary>
+            Metodo para consultar un libro por Id
+            </summary>
+            <param name="libroId">Id del libro.</param>
+            <returns>Libro</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.LibroController.Post(Travel.Core.Application.Features.Libros.Commands.Create.CreateLibroRequest)">
+            <summary>
+            Metodo para guardar libro
+            </summary>
+            <param name="request">Datos del libro.</param>
+            <returns>Respuesta</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.LibroController.Delete(System.Int32)">
+            <summary>
+            Metodo para eliminar libro
+            </summary>
+            <param name="libroId">Id del libro.</param>
+            <returns>Respuesta</returns>
+        </member>
+        <member name="M:Travel.Infrastructure.WebApi.Controllers.LibroController.Put(System.Int32,Travel.Core.Application.Features.Libros.Commands.Update.UpdateLibroRequest)">
+            <summary>
+            Metodo para actualizar libro
+            </summary>
+            <param name="libroId">Id del libro.</param>
+            <param name="request">Datos para actualizar el libro.</param>
+            <returns>Respuesta</returns>
+        </member>
+    </members>
+</doc>
